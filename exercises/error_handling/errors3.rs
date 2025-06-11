@@ -11,7 +11,7 @@
 
 use std::num::ParseIntError;
 
-fn main() {
+fn main()->Result<(),ParseIntError> {
     let mut tokens = 100;
     let pretend_user_input = "8";
 
